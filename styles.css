@@ -1,0 +1,43 @@
+* { 
+    margin:0;
+    padding:0;
+    font-family: 'AGENCY', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'AGENCY';
+    src: url('./assets/fonts/AFB.ttf') format('truetype');
+}
+
+body{
+    display: flex;
+}
+
+.ponta{
+    left:0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding-left: 2%;
+    width: 100%;
+    height: 15%;
+    background-color: #000005;
+    color: #ff1e59;
+}
+
+.ponta img{
+    padding-top: 10%;
+    margin-left: -2%;
+    height: 40vh;
+    width: 100vw;
+}
+
+.baixo{
+    width:100%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
