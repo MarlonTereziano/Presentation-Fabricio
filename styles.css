@@ -22,7 +22,7 @@ body{
 }
 
 .ToolBar{
-    width: 100%;
+    width: 100vw;
     height: 50px;
     margin-top:-0.2%;
     position: absolute;
@@ -60,7 +60,12 @@ body{
     justify-content: center;
 }
 
-.footer{
-    width:40px;
+.Footer{
+    position: absolute;
+    height: 50px;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:red;
 }
