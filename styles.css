@@ -10,6 +10,8 @@
     src: url('./assets/fonts/AFB.ttf') format('truetype');
 }
 
+
+
 body{
     display: flex;
     overflow-y: scroll;
@@ -25,6 +27,15 @@ body{
 
 main{
     background-color:pink;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
 }
 
 .ToolBar{
