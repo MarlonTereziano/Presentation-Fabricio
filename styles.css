@@ -57,7 +57,7 @@ main{
 }
 
 .sobreMim{
-    color:rgb(207, 203, 203);
+    color: white;
     border-right: 4px solid;
     position: relative;
     display: flex;
@@ -70,6 +70,11 @@ main{
     background-color:black;
 }
 
+.sobreMim p{
+    width: 50%;
+    font-size:20px;
+    letter-spacing:0.1rem;
+}
 
 .sobreMim h1{
     margin-bottom: 5vh;
@@ -81,8 +86,9 @@ main{
 }
 
 .sobreMim .infos img{
+    margin-right: 10%;
     border-radius: 10%;
-    height: 80%;
+    height: 400px;
     margin-left: -20%;
 }
 
