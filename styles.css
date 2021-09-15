@@ -67,6 +67,19 @@ a:hover{
     color: black;
 }
 
+.sorteios{
+    font-size:25px;
+    width:100%;
+    height: 100vh;
+    background-color:rgb(207, 203, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    flex-direction: column
+}
+
+
 .sobreMim{
     color: white;
     border-right: 4px solid;
@@ -80,6 +93,7 @@ a:hover{
     /* background-color:rgb(207, 203, 203); */
     background-color:black;
 }
+
 
 .sobreMim p{
     width: 50%;
@@ -107,7 +121,6 @@ a:hover{
 
 .faleComigo{
     font-size:25px;
-    margin-top:-2%;
     width:100%;
     height: 100vh;
     background-color:rgb(207, 203, 203);
@@ -128,6 +141,10 @@ a:hover{
     background-color:#FF1859;
 }
 
+.faleComigo h1:hover{
+    filter: brightness(91%);
+    cursor: pointer;
+}
 
 .faleComigo   ul {
     width: 100%;
